@@ -1,4 +1,4 @@
-# Sage 9 friendly Advanced Custom Fields configuration
+# Sage 10 friendly Advanced Custom Fields configuration
 
 Sets up saving and loading of Advanced Custom Fields settings using [ACF Local JSON](https://www.advancedcustomfields.com/resources/local-json/).
 
@@ -8,3 +8,4 @@ To install, run the following in your Sage9-based theme directory:
 ```bash
 composer require "mwdelaney/sage-advanced-custom-fields"
 ```
+Forked from [MWDelaney/sage-advanced-custom-fields](https://github.com/MWDelaney/sage-advanced-custom-fields)
