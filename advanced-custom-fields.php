@@ -21,7 +21,7 @@ if (function_exists('add_filter')) {
     add_filter('acf/settings/save_json', function ($path) {
 
     // Set Sage 10 friendly path at /theme-directory/resources/assets/acf-json
-        $path = get_stylesheet_directory() . '/assets/acf-json';
+        $path = get_stylesheet_directory() . '/resources/assets/acf-json';
 
         // If the directory doesn't exist, create it recursively.
         if (!is_dir($path)) {
@@ -41,7 +41,7 @@ if (function_exists('add_filter')) {
     add_filter('acf/settings/load_json', function ($paths) {
 
     // append path
-        $paths[] = get_stylesheet_directory() . '/assets/acf-json';
+        $paths[] = get_stylesheet_directory() . '/resources/assets/acf-json';
 
         // return
         return $paths;
