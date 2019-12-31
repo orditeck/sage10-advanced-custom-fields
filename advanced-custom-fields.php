@@ -1,8 +1,9 @@
 <?php
 /**
- * Advanced Custom Fields drop-in functionality for Sage 9
+ * Advanced Custom Fields drop-in functionality for Sage 10
  * Version: 1.0
  * Author: Michael W. Delaney
+ * Author: Keven <orditeck> Lefebvre
  */
 
 // Hide ACF menu item in Production
