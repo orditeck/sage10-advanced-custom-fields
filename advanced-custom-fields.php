@@ -1,7 +1,7 @@
 <?php
 /**
  * Advanced Custom Fields drop-in functionality for Sage 10
- * Version: 1.0
+ * Version: 1.5
  * Author: Michael W. Delaney
  * Author: Keven <orditeck> Lefebvre
  */
