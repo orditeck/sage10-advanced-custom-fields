@@ -1,19 +1,23 @@
 {
-  "name": "mwdelaney/sage-advanced-custom-fields",
-  "description": "Advanced Custom Fields local JSON setup for Sage 9 based themes",
-  "keywords": ["wordpress", "advanced custom fields", "json"],
-  "homepage": "https://github.com/MWDelaney/sage-advanced-custom-fields",
+  "name": "orditeck/sage10-advanced-custom-fields",
+  "description": "Advanced Custom Fields local JSON setup for Sage 10 based themes",
+  "keywords": ["wordpress", "advanced custom fields", "json", "sage"],
+  "homepage": "https://github.com/orditeck/sage10-advanced-custom-fields",
   "license": "MIT",
   "authors": [
     {
       "name": "Michael W. Delaney",
       "email": "michael@michaeldelaney.me"
-		}
+    },
+    {
+      "name": "Keven Lefebvre",
+      "email": "keven@nevek.co"
+    }
   ],
   "require": {
     "php": ">=5.3.2"
   },
-	"autoload": {
+  "autoload": {
     "files": ["advanced-custom-fields.php"]
   }
 }
